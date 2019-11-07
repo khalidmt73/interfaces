@@ -1,12 +1,11 @@
 public interface School {
 
-    String nat = "muslems";
-    int    age = 25;
+    String schoolName = "Salah Adeen";
+    int    age = 10;
 
     void getName (String n);
     int getAge();
-   static void talant(){
-
-       System.out.println(nat);
+    static void schoolName(){
+      System.out.println(schoolName);
    }
 }

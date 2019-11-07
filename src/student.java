@@ -1,16 +1,20 @@
-public class student implements School {
+public class student implements School,Books {
 
     @Override
     public void getName(String n) {
           System.out.println(n);
     }
-
+    @Override
     public int getAge(){
         return age;
     }
 
-    public void talant(){
-        System.out.println(nat);
+    public void schoolName(){
+        System.out.println();
+    }
 
+    @Override
+    public void book() {
+        System.out.println("JAVA BOOK");
     }
 }
